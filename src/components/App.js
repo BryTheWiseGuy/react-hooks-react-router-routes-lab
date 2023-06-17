@@ -10,18 +10,25 @@ function App() {
   return <div>
     <NavBar />
     <Switch>
-      <Route path="/Movies">
-        <Movies />
-      </Route>
-      <Route path="/Directors">
-        <Directors />
-      </Route>
-      <Route path="/Actors">
-        <Actors />
-      </Route>
-      <Route exact path="/">
-        <Home />
-      </Route>
+      <Route 
+        exact 
+        path="/Movies"
+        component={Movies}/>
+      <Route 
+        exact 
+        path="/Directors"
+        component={Directors}
+      />
+      <Route 
+        exact 
+        path="/Actors"
+        component={Actors}
+      />
+      <Route 
+        exact 
+        path="/"
+        component={Home}
+      />
     </Switch>
   </div>;
 }

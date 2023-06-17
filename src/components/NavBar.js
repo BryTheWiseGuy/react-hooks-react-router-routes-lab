@@ -6,15 +6,15 @@ function NavBar() {
     <NavLink to="/" exact>
       Home
     </NavLink>
-    <br></br>
+    <br />
     <NavLink to="/Movies" exact>
       Movies
     </NavLink>
-    <br></br>
+    <br />
     <NavLink to="/Directors" exact>
       Directors
     </NavLink>
-    <br></br>
+    <br />
     <NavLink to="/Actors" exact>
       Actors
     </NavLink>
